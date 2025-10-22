@@ -1,0 +1,17 @@
+Git Lab tutorials completed 10/22/2025
+Github account created 10/22/2025
+2. 7  git rev-list --all --count
+3. $ git log -1 --date=iso --pretty=format:"%ad %h %an %s" -- README.md
+2019-09-25 18:33:08 -0400 f4975e5 Esteban Parra -> Adding an empty README.md file
+4. Branchs can isolate work and not break main
+Easier to read when reviewing code
+5. Log shows commit history
+Status shows working tree
+6. git log --name-only --pretty=format:"%h %ad %an %s" --date=short -- Vehicle.h
+7. git log --grep="file" -i --pretty=format:"%h %ad %an %s" --date=short
+8. Inheritance: classes derive from other classes to reuse/extend behavior.
+Polymorphism: one interface, many implementations
+Encapsulation: bundle data with methods; restrict direct access via interfaces.
+9. Dictator & Lieutenants: hierarchical merge pipeline (contributors → lieutenants → dictator).
+Integration Manager: flatter flow (contributors → integration manager).
+10.  A team of 100 devs would benefit from the dictator and lieutenants workflow as their would be more clear leadership and would be able to be sectioned off into groups. Making a better managered workflow.
